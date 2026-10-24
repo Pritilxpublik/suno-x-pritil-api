@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-23-base",
+  "routes": {
+    "project_list": ["/a/api/project/me", "/api/project/me"],
+    "project_songs": ["/a/api/project/{id}", "/api/project/{id}"],
+    "download_authorize": ["/a/api/download/authorize", "/api/download/authorize"],
+    "download_clip": ["/a/api/download/clip/{id}", "/api/download/clip/{id}"],
+    "rights": ["/a/api/mango/rights", "/api/mango/rights"]
+  }
+}
